@@ -161,5 +161,4 @@ Ele demonstra habilidades em SQL, modelagem de dados, dbt Core, organização de
 O projeto foi pensado para evolução em ambientes reais, com possibilidade de:
 
 - Execução automatizada do pipeline
-- Monitoramento de falhas
-- Integração com ferramentas de orquestração (ex: n8n, Airflow)
+- Monitoramento de falhas- Integração com ferramentas de orquestração (ex: n8n, Airflow)
