@@ -34,6 +34,16 @@ O pipeline foi estruturado de forma modular, permitindo execução automatizada 
 
 Os dados são carregados inicialmente no PostgreSQL em formato bruto. Em seguida, o dbt Core é utilizado para transformar esses dados em modelos analíticos confiáveis, seguindo boas práticas de engenharia analítica.
 
+## Pipeline de Dados
+
+O fluxo de dados segue as seguintes etapas:
+
+1. Ingestão de dados brutos via scripts Python
+2. Armazenamento inicial no PostgreSQL
+3. Transformação e limpeza com dbt (camada staging)
+4. Modelagem analítica (camada marts)
+5. Validação e testes de qualidade
+
 ## Modelagem de Dados
 
 A modelagem segue o padrão analítico com separação entre staging e marts.
