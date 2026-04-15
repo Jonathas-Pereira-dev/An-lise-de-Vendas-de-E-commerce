@@ -1,4 +1,4 @@
-# Analise-de-Vendas-de-E-commerce
+# Pipeline de dados automatizado para análise de vendas
 
 ## Contexto do Negócio
 
