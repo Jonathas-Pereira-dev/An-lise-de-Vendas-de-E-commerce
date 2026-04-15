@@ -2,12 +2,16 @@
 
 ## Contexto do Negócio
 
-Este projeto simula um cenário real de uma empresa de e-commerce que deseja analisar seus dados de vendas para apoiar a tomada de decisão. O objetivo é transformar dados brutos em informações analíticas confiáveis, respondendo perguntas como:
+Este projeto simula um cenário real de uma empresa de e-commerce que necessita estruturar e automatizar o processamento de dados de vendas para apoiar a tomada de decisão.
 
-* Como as vendas evoluem ao longo do tempo?
-* Quais produtos e categorias geram mais receita?
-* Quem são os clientes mais valiosos?
-* Qual é o ticket médio das vendas?
+O foco não é apenas análise, mas a construção de um pipeline de dados confiável, capaz de transformar dados brutos em informações analíticas consistentes e reutilizáveis.
+
+Principais perguntas respondidas:
+
+- Como as vendas evoluem ao longo do tempo?
+- Quais produtos e categorias geram mais receita?
+- Quem são os clientes mais valiosos?
+- Qual é o ticket médio das vendas?
 
 ## Stack Utilizada
 
