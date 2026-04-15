@@ -28,6 +28,7 @@ Principais perguntas respondidas:
 * **dbt Core**: modelagem de dados, testes e documentação
 
 ## Arquitetura do Projeto
+O pipeline foi estruturado de forma modular, permitindo execução automatizada e fácil manutenção.
 
 ![pics](https://github.com/Jonathas-Pereira-dev/An-lise-de-Vendas-de-E-commerce/blob/main/pics/arquitetura.png)
 
