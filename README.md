@@ -13,6 +13,13 @@ Principais perguntas respondidas:
 - Quem são os clientes mais valiosos?
 - Qual é o ticket médio das vendas?
 
+## Objetivo Técnico
+
+- Estruturar um pipeline de dados (ETL) completo
+- Automatizar o fluxo de ingestão e transformação
+- Garantir qualidade e confiabilidade dos dados
+- Criar uma base analítica escalável
+
 ## Stack Utilizada
 
 * **Python**: ingestão e tratamento inicial dos dados (ETL)
