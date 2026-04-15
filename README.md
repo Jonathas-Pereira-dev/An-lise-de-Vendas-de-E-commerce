@@ -157,3 +157,11 @@ As consultas SQL estão disponíveis na pasta `sql/` e podem ser executadas dire
 Este projeto foi desenvolvido com foco em boas práticas de análise de dados e engenharia analítica, servindo como portfólio para oportunidades de **Analista de Dados Jr**.
 
 Ele demonstra habilidades em SQL, modelagem de dados, dbt Core, organização de projetos e entendimento de métricas de negócio.
+
+## Automação e Escalabilidade
+
+O projeto foi pensado para evolução em ambientes reais, com possibilidade de:
+
+- Execução automatizada do pipeline
+- Monitoramento de falhas
+- Integração com ferramentas de orquestração (ex: n8n, Airflow)
