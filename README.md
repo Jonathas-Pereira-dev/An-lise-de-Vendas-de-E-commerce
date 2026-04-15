@@ -130,10 +130,30 @@ venv\\Scripts\\activate     # Windows
 ### 3️⃣ Instalar dependências
 
 ```bash
-poetry install -r requirements.txt
+poetry install
 ```
 
-### 4️⃣ Executar ETL (Python)
+### 4️⃣ Configurar conexão com PostgreSQL
+
+Defina as variáveis de ambiente do banco de dados ou use um arquivo `.env` com as credenciais.
+
+Exemplo de variáveis:
+
+```bash
+DB_USER=meu_usuario
+DB_PASSWORD=minha_senha
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=ecommerce
+```
+
+Também é possível usar a variável completa:
+
+```bash
+DATABASE_URL=postgresql://meu_usuario:minha_senha@localhost:5432/ecommerce
+```
+
+### 5️⃣ Executar ETL (Python)
 
 ```bash
 python etl/ingest_data.py

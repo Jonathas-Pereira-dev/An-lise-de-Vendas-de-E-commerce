@@ -2,7 +2,7 @@ import pandas as pd
 from sqlalchemy import create_engine
 
 
-engine = create_engine("postgresql://user:password@localhost:5432/ecommerce")
+engine = create_engine("postgresql://user:Rayane1010$@localhost:5432/ecommerce")
 
 
 df_orders = pd.read_csv("data/orders.csv")
